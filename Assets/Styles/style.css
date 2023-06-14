@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+/* hero nav */
+#heroNav header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(1, 1, 29);
+  font-weight: bold;
+}
+
+#heroNav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+#heroNav div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.heroCta {
+  text-decoration: none;
+  color: rgb(1, 1, 29);
+  white-space: nowrap;
+}
+
+.heroCta1 {
+  background-color: rgb(1, 1, 29);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+/* main section 1 */
+
+#mainSection1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../Images/download.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-inline: 9%;
+  padding: 15rem 2rem 3rem;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: white;
+}
+
+#mainSection1 h1 {
+  width: 84%;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+#mainSection1 p {
+  width: 65%;
+  line-height: 1.8rem;
+}
+
+/* main section 2 */

@@ -110,10 +110,12 @@
   color: rgba(1, 1, 29, 0.815);
 }
 
-#mainSection2 button {
-  margin-top: 2rem;
+.articleBtn {
   text-align: center;
-  margin-inline: 40%;
+  margin-top: 2rem;
+}
+
+#mainSection2 button {
   white-space: nowrap;
   padding: 0.8rem 1rem;
   border: none;
